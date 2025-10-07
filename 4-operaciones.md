@@ -34,6 +34,11 @@ docker exec -i <nombre contenedor> bash
 - /bin/bash: Al especificar la ruta completa del shell, Docker buscará el ejecutable /bin/bash en el sistema de archivos del contenedor y lo ejecutará. Esto es útil cuando quieres asegurarte de que se está utilizando un shell específico que está ubicado en una ubicación conocida en el sistema de archivos del contenedor. 
 - bash: Al especificar solo el nombre del shell, Docker buscará el comando bash en las rutas del sistema (por lo general, en las rutas definidas en la variable de entorno PATH) del contenedor y lo ejecutará. Esto asume que bash está disponible en alguna de las rutas del sistema definidas en el contenedor.
 
+Mostrar el contenido del archivo /etc/shells, que contiene una lista de shells válidos en el sistema.
+
+docker exec -it jenkins cat /etc/shells
+
+
 Ejecutar
 ```
 echo "Hola mundo"
