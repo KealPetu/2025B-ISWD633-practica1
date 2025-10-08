@@ -48,6 +48,8 @@ No puedes mapear puertos a un contenedor existente directamente después de su c
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
 
+![acceso a jenkins](images/image-23.png)
+
 ### ¿Cómo obtener la contraseña solicitada?
 Para obtener la contraseña solicitada es necesario ingresar al contenedor.
 
