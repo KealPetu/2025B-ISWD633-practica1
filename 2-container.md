@@ -129,6 +129,6 @@ Verificar que el contenedor que se eliminó
 
 Inspeccionar el contenedor **srv-web**
 
-![inspeccionar contenedor](./images/image-20.png)
-
 # COMPLETAR
+
+![inspeccionar contenedor](./images/image-20.png)
